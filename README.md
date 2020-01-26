@@ -8,10 +8,12 @@ Currently the EXIFLog schema consists of the following
   - ISO
   - Size
   - Colour
+  - Copyright
   - List of frames
     - Shutter Speed
     - Aperture
     - Exposure Bias
     - Focal Length
+    - Caption
 
 In addition, the schema also contains a list of common shutter speeds and aperture values
