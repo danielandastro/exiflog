@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXIFLogGUI", "EXIFLogGUI\EXIFLogGUI.csproj", "{6676E553-4C41-4268-BE0D-0792C4CB5C6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EXIFLogLib", "EXIFLogLib\EXIFLogLib.csproj", "{E88FFB4B-49E5-4E96-85A2-2992469A6DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EXIFLogSchema", "EXIFLogSchema\EXIFLogSchema.csproj", "{99AC06E2-750F-42D8-B79D-FAF280E74D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSONBuilder", "JSONBuilder\JSONBuilder.csproj", "{FB7D3AC8-A004-420B-A343-342286D62CC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6676E553-4C41-4268-BE0D-0792C4CB5C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6676E553-4C41-4268-BE0D-0792C4CB5C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6676E553-4C41-4268-BE0D-0792C4CB5C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6676E553-4C41-4268-BE0D-0792C4CB5C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88FFB4B-49E5-4E96-85A2-2992469A6DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88FFB4B-49E5-4E96-85A2-2992469A6DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88FFB4B-49E5-4E96-85A2-2992469A6DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88FFB4B-49E5-4E96-85A2-2992469A6DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AC06E2-750F-42D8-B79D-FAF280E74D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AC06E2-750F-42D8-B79D-FAF280E74D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AC06E2-750F-42D8-B79D-FAF280E74D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AC06E2-750F-42D8-B79D-FAF280E74D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7D3AC8-A004-420B-A343-342286D62CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7D3AC8-A004-420B-A343-342286D62CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7D3AC8-A004-420B-A343-342286D62CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7D3AC8-A004-420B-A343-342286D62CC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2BB17E2-52EC-452A-8027-0C213E615CBC}
+	EndGlobalSection
+EndGlobal
