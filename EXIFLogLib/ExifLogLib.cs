@@ -1,8 +1,8 @@
 ﻿using System;
-
-namespace EXIFLogLib
+namespace EXIFLog.EXIFLogLib
 {
     public class Frames
     {
+        public class 
     }
 }

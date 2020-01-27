@@ -3,15 +3,16 @@ using System.Collections.Generic;
 namespace ExifLog.Schema {
 public class Schema
 {
-    public struct Roll
+    public class Roll
     {
+        public string ver;
         public int size;
         public string ISO;
         public bool isColour;
         public string copyright;
-        public List<Frame> Frames = new List<Frame>();
+        public List<Frame> frames= new List<Frame>();
     }
-    public struct Frame
+    public class Frame
     {
         public string shutterSpeed;
         public string aperture;
