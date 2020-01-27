@@ -10,7 +10,7 @@
         <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="10,388,0,0" VerticalAlignment="Top" Height="36" Width="153" IsCancel="True" Click="btnCancel_Click"/>
         <CheckBox x:Name="boxColour" Content="Is Colour" HorizontalAlignment="Left" Margin="26,177,0,0" VerticalAlignment="Top" Height="19" Width="489" IsChecked="True" ToolTip="Is the roll colour or BW stock"/>
         <TextBox x:Name="txtISO" HorizontalAlignment="Left" Margin="26,24,0,0" Text="ISO" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" ToolTip="ISO"/>
-        <TextBox x:Name="txtSize" HorizontalAlignment="Left" Margin="26,71,0,0" Text="Size" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" ToolTip="Number of Exposures"/>
+        <TextBox x:Name="txtSize" HorizontalAlignment="Left" Margin="26,71,0,0" Text="36" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" ToolTip="Number of Exposures"/>
         <TextBox x:Name="txtCopyright" HorizontalAlignment="Left" Margin="26,129,0,0" Text="Copyright String" TextWrapping="Wrap" VerticalAlignment="Top" Width="489" ToolTip="Copyright"/>
         <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="637,383,0,0" VerticalAlignment="Top" Height="36" Width="153" IsCancel="False" Click="btnSave_Click"/>
 
