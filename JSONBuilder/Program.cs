@@ -6,8 +6,8 @@ namespace JSONBuilder
     {
         static void Main(string[] args)
         {
-            var schema = new ExifLog.Schema.Schema.Roll();
-            var frame = new ExifLog.Schema.Schema.Frame();
+            var schema = new EXIFLog.Schema.Schema.Roll();
+            var frame = new EXIFLog.Schema.Schema.Frame();
             frame.aperture = "";
             frame.caption = "";
             frame.exposureBias = "";

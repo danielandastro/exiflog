@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace ExifLog.Schema {
+namespace EXIFLog.Schema {
 public class Schema
 {
     public class Roll
