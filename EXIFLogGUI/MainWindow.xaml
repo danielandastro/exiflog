@@ -3,10 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:EXIFLogGUI"
+        xmlns:local="clr-namespace:EXIFLog.GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="EXIFLog" Height="450" Width="800">
     <Grid>
+        <ComboBox x:Name="fileListBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="675"/>
+        <Button x:Name="loadBTN" Content="Load" HorizontalAlignment="Left" Margin="701,12,0,0" VerticalAlignment="Top" Width="89"/>
 
     </Grid>
 </Window>
